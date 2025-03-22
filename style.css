@@ -1,0 +1,44 @@
+
+
+body{
+    /* background: linear-gradient(180deg,rgb(240, 88, 181) 0%,rgb(240, 10, 144)); */
+    background-image: url("https://images.ctfassets.net/hrltx12pl8hq/3YXNkUFe8YTtgtwAZUDFgq/8e42e15d9e337f0cfeac5152acef1182/SSTK_LP_Video-Background_1200x627.jpg?fit=fill&w=1200&h=630");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    color: aqua;
+    
+    
+}
+h1{
+    margin-top: 5%;
+    font-size: 40px;
+}
+#button{
+    width: 200px;
+    height: 70px;
+    background-color: rgb(76, 15, 218);
+    color:white;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+}
+#button:hover{
+    cursor: pointer;
+    box-shadow: 0px 3px 3px rgb(250, 197, 127);
+}
+#jokecontent,#joke{
+    font-size:30px ;
+    line-height: 38px;
+}
+img,#jokecontent{
+    margin-top: 50px;
+    height: 400px;
+    width: 400px;
+    
+    
+}
